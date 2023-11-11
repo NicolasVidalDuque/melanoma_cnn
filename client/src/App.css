@@ -1,0 +1,28 @@
+.nav-item{
+    margin: 0 10px
+}
+
+.img-container{ 
+    width: 200px;
+}
+
+.flex-basis-80{
+    flex-basis: 90%;
+}
+
+.flex-basis-20{
+    flex-basis: 10%;
+}
+
+.melanoma-img {
+    float: left;
+    height: 300px;
+    width:  300px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 576px){
+    .imgs-container{
+        align-items: center;
+    }
+}
